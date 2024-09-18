@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Docker files
+*.log
+*.pid
+*.db
+
+# Model files (if they are large and not meant to be versioned)
+models/
+
+# Docker-related files
+docker-compose.override.yml
+docker-compose*.yml
+
+# MacOS system files
+.DS_Store
+
+# VSCode files
+.vscode/
+
+# IDE specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
